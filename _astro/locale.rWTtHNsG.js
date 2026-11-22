@@ -1,0 +1,1 @@
+function e(e){let t=`/artisan-design-demo`.replace(/\/$/,``),n=e.startsWith(`/`)?e:`/${e}`;return t&&(n===t||n.startsWith(`${t}/`))?n:`${t}${n}`}function t(t,n){let r=n.startsWith(`/`)?n:`/${n}`;return e(`/${t}${r===`/`?``:r}`)}export{e as n,t};
